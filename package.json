@@ -1,0 +1,30 @@
+{
+  "name": "authentication-basics",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/henrique-serra/authentication-basics#readme",
+  "bugs": {
+    "url": "https://github.com/henrique-serra/authentication-basics/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henrique-serra/authentication-basics.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^17.2.2",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "pg": "^8.16.3"
+  }
+}
